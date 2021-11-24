@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+.descrição-novel{
+    text-align: center;
+}
+.capa{
+    width: 280px;
+    height: 400px;
+    border-radius: 5%;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#titulo-novel{
+    color:  #1F2BD1;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+#Novel{
+    padding-bottom: 80px;
+    padding-top: 10px;
+    padding-right: 25px;
+    margin: 32px;
+}
+.ajuste-T{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ajuste{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ajuste a{
+    color: black;
+    text-decoration: none;
+}
+.ajuste a:hover{
+    text-decoration: underline;
+    color: #57068c;
+}
+.Componentes-Novel{
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+    color: #2c3e50;
+}
+.Scan{
+    font-size: 18px;
+    color: #2c3e50;
+}
+#h2_mapa{
+    font-family: 'Roboto', sans-serif;
+    color: #1F2BD1;
+}
+#mapa{
+    text-align: center;
+}
+#link_mapa_lms a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+#link_mapa_lms a:hover{
+    text-decoration: underline;
+    color: #1F2BD1;
+}
+.text-sinopse{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#text-sinopse-special{
+    text-align: center;
+}
+#sg-parag{
+    text-align: center;
+}
+.lista-titulo{
+    padding: 20px;
+}
+.titulo-genero{
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.lista-titulo .Componentes-Novel{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.Lista-de-caps{
+    border: solid black;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.caps-left{
+    text-align: left;
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 25px;
+}
+.caps-right{
+    padding-left: 25px;
+    align-items: right;
+    display: inline-block;
+    list-style-type: none;
+}
+.caps-espaço{
+    margin-bottom: 25px;
+}
+.container{
+    display: flex;
+}
+.li-format a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.li-format a:hover{
+    text-decoration: underline;
+    color: #52007b;
+}
+.div-genero{
+    margin-left: 25px;
+}
+.div-button{
+    display: inline-block;
+    border: solid 1px rgb(88, 105, 124);
+    border-radius: 20px;
+    background-color: #fff;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+.div-button a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(0, 119, 255);
+}
+.div-button:hover{
+    background-color: rgb(0, 119, 255);
+}
+.div-button:hover a{
+    color: #fff;
+}

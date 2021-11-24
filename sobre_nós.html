@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre_nos.css">
+    <script type="text/javascript">
+       function validaform () {
+    var nome = valida.nome.value;
+    var email = valida.email.value;
+    var mensagem = valida.mensagem.value;
+     
+	 if (nome == "") 
+	 {
+         alert("Preencha NOME ou todos os campos");
+     }else if (email == ""){
+         alert("Preencha EMAIL ou todos os campos");
+     }else if (email.length < 5){
+         alert("Preencha corretamente o campo EMAIL");
+     }else if(mensagem == ""){
+        alert("Preencha MENSAGEM ou todos os campos");
+     }
+}
+    </script>
+    <title>Sobre Nós</title>
+</head>
+<body id="body_especial">
+    <div id="main"> 
+        <p class="p-text">Antes de tudo, esse nicho não está nada atrelado ao gênero "romance" nem
+        as "novelas" e por possuir diversos nomes, o que mais se tornou conhecido foi o termo "novel".
+        </p>
+        <p class="p-text">
+            Na década de 70, muitas histórias eram publicadas em jornais e revistas, em decorrência da enorme popularidade
+            dos animes e mangás, não demorou muito para que revistas literárias começassem a publicar histórias com ilustrações e capas 2D
+            para alcançar o publico mais jovem. Dessa forma, ouve a explosão das light novels.
+        </p>
+        <h3 class="title">Mas afinal, o que é uma WebNovel?</h3>
+        <p class="p-text">
+            Inicialmente, as Light Novels, publicadas por revistas literárias,
+            seguiam um padrão mais próximo do romance, apenas um
+            pouco mais fantasioso do que era costumeiro ver.
+        </p>
+        <p class="p-text">
+            Mas, os tempos foram passando, mais e mais particularidades
+            foram sendo aplicadas na escrita de novels asiáticas.
+            E onde as webnovels se encaixam? Seriam todas LNs? A resposta
+            vem muito mais próxima da origem das LNs do que se imagina.
+        </p>
+        <p class="p-text">DE ACORDO COM A SYOSETU, UM ROMANCE SE CARACTERIZA POR:</p>
+        <ul class="ul-text">
+            <li class="p-text2">Um conteúdo aproximadamente realista e baseado em evidências científicas;</li>
+            <li class="p-text2">É escrito com frases sólidas;</li>
+            <li class="p-text2">Possui narrativa com gramática correta;</li>
+            <li class="p-text2">É complicado de ler para quem não está acostumado, porque o estilo de escrita é difícil;</li>
+        </ul>
+        <p class="p-text">E UMA LIGHT NOVEL SE CARACTERIZA POR:</p>
+        <ul class="ul-text">
+            <li class="p-text2">Um conteúdo irreal e não-científico;</li>
+            <li class="p-text2">É escrito com frases simples;</li>
+            <li class="p-text2">Mesmo com problemas de gramática, é o suficiente que o leitor possa entendê-la;</li>
+            <li class="p-text2">A leitura é simples e têm muitos estilos coloquiais, tornando-as fáceis de ler para os jovens;</li>
+        </ul>
+        <p class="p-text">
+            E é aqui que chega a parte da WNs. Enquanto as LNs seriam algo mais simples, mas ainda sim bem construídas e contendo as suas exigências,
+            os autores que escreviam para se divertir, começaram a buscar outras formas de manisfestar suas idéias para fugir dessas exigências e apenas demonstrar elas com mais liberdade.
+        </p>
+        <p class="p-text">
+            Desde a idéia de criação, pode ser escrita por uma criança, adolescente ou um universitário sem qualquer exigência te prendendo e podendo ser escrita e estruturada do jeito que o autor quiser.
+            Claro, desde que fique legível e funcional para o leitor.
+        </p>
+        <p class="p-text">
+            Agora uma onda de autores amadores começaram a escrever as suas próprias histórias. No brasil,
+            existem diversas comunidades voltadas para WNs. Irei citar três:
+        </p>
+        <ul class="ul-text">
+            <li class="p-text2">
+                <a class="link" href="https://discord.gg/McamJHSY7t" target="blank">The Novel Brasil</a>: Comunidade focada em ajudar autores iniciantes a escrever as suas 
+                próprias novel, disponibilizando artigos de gramática e dicas, além de contar com diversos autores
+                com experiência no ramo para conversar.
+            </li>
+            <li class="p-text2">
+                <a class="link" href="https://kiniga.com/" target="blank">Kiniga</a>: A kiniga é uma comunidade cheia de autores para trocar idéias além de possuir um site para que as
+                obras sejam publicadas, se você tem uma novel e acha que é boa o suficiente par publicar, recomendo que dê uma olhada.
+            </li>
+            <li class="p-text2">
+                <a class="link" href="https://novelmania.com.br/" target="blank">Novel Mania</a>: Provavelmente a maior comunidade de WNs e LNs do Brasil, conta com inúmeras obras de várias nacionalidades e tem
+                um espaço dedicado a obras nacionais.
+            </li>
+        </ul>
+        <p class="p-text">Por agora é isso, o DEV se despede de vocês leitores, aqui. Até</p>
+        <p class="p-text">
+            Caso você queira entrar em contato conosco, ficarei feliz em responder, mas antes preencha os campos abaixo.
+        </p>
+    </div>
+    <div id="forms">
+        <form name="valida" action="" method="post" onsubmit="return validaform()">
+                <table id="table-forms">
+                    <tr>
+                        <td class="td1"><label class="label-f">Nome:</label></td>
+                        <td><input class=in-forms type="text" name="nome"></td>
+                    </tr>
+                    <tr>
+                       <td class="td1"><label>Email: </label></td>
+                        <td><input class="in-forms" type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td class="td1"><label>Mensagem: </label></td>
+                        <td><textarea id="mensagem" name="mensagem" rows="13" cols="60"></textarea></td>
+                    </tr>
+                    <tr id="">
+                        <td class="td1"></td>
+                        <td><input id="button" type="submit" name="submit" value="Enviar"></td>
+                    </tr>
+                </table>
+            </form>
+    </div>
+</body>
+</html>
